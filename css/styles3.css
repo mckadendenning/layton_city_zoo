@@ -1,0 +1,252 @@
+/*Styles for index page*/
+nav li{
+    display: inline;
+    text-align: right;
+    padding: 1em;
+}
+
+.hippo{
+    padding-top: 3px;
+    margin-left: -10px;
+}
+
+.meerkat{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: -.7em;
+    margin-right: -.7em;
+}
+
+caption{
+    font-size: 4em;
+    background-image: linear-gradient(#C0C0C0, #FFFFFF);
+    margin-top: -.1em;
+    font-family: 'Arimo', sans-serif;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    margin-right: -.24em;
+    margin-left: -.25em;
+}
+
+.meerkat img{
+    width: 100%;
+    height: auto;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: 'Arimo', sans-serif;
+}
+
+nav li a:hover{
+    color: #C0C0C0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: #C0C0C0; 
+    font-family: 'Arimo', sans-serif;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+h1{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004d99;
+    padding-top: -1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-top: -0.7em;
+    margin-left: -0.48em;
+    margin-right: -0.48em;
+}
+
+.mobile{
+    display: none;
+}
+
+.eventschedule{
+    font-size: 1.5em;
+    margin-top: -.2em;
+    margin-right: -.35em;
+    margin-left: -.35em;
+    background-image: linear-gradient(#C0C0C0, #FFFFFF);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    border-top: 2px solid #004d99;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: #C0C0C0;
+    color: #004d99;
+    border: 1.5px solid black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+    text-align: center;
+}
+
+table{
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+    
+th, td {
+    border: 0.1em solid #000000;
+    padding: 1em;
+}
+    
+th{
+    background-color: #004d99;
+    color: white;
+    }
+
+footer{
+    background-color: #004d99;
+    color: #C0C0C0;
+    text-align: center;
+    padding: .5em 0em;
+    font-size: .8em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+footer li{
+    display: inline;
+}
+
+footer i{
+    color: #C0C0C0;
+    font-size: 3em;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer a i:hover{
+    color: #282828;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    color: #C0C0C0; 
+    text-decoration: none
+}
+
+footer a:hover{
+    color: #282828;
+}
+
+.alligator{
+    width: 100%
+}
+
+.column {
+  float: left;
+  width: 31.973%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media only screen and (max-width: 767px){
+.desktop{
+        display: none;
+}
+    
+.mobile{
+    display: inline;
+    text-align: center;
+}
+    
+.hippo{
+    text-align: center;
+    padding-left: .4em
+}
+    
+.meerkat{
+    display: none;    
+ }
+    
+header{
+    flex-direction: column;
+    margin-right: -1em;
+}
+
+nav li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding: .5em;
+        font-size: 1.3em;
+        margin-left: -2.4em;
+}
+    
+    .happycust{
+        display: none;
+    }
+    
+    .eventmobile{
+        background-image: url(../images/giraffeleaf.jpg);
+        margin-top: -3em;
+        margin-right: -.58em;
+        margin-left: -.58em;
+        margin-bottom: -1.3em
+    }
+    
+    .eventmobile p{
+        padding-top: 2em;
+        font-size: 1.3em;
+        background-color: #C0C0C0;
+        opacity: .6;
+        font-weight: bold;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-family: 'Noto Sans JP', sans-serif;
+        text-decoration: underline;
+    }
+    
+    .eventmobile h3{
+        font-size: 3em;
+        font-family: 'Noto Sans JP', sans-serif;
+        text-decoration: underline;
+        margin-bottom: -.1em;
+        font-weight: bolder;
+    }
+    
+    
+}

@@ -1,0 +1,387 @@
+/*Styles for index page*/
+nav li{
+    display: inline;
+    text-align: right;
+    padding: 1em;
+}
+
+.hippo{
+    padding-top: 3px;
+    margin-left: -10px;
+}
+
+.meerkat{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: -.7em;
+    margin-right: -.7em
+}
+
+.meerkat img{
+    width: 100%;
+    height: auto;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: 'Arimo', sans-serif;
+}
+
+nav li a:hover{
+    color: #C0C0C0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: #C0C0C0; 
+    font-family: 'Arimo', sans-serif;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.flexrow p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.how p{
+    font-family: 'Noto Sans JP', sans-serif; 
+    color: #000000;
+    text-decoration: none;
+}
+
+.how a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004d99;
+    padding-top: 0em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-top: -0.7em;
+    margin-left: -0.48em;
+    margin-right: -0.48em;
+}
+
+.welcome{
+    font-size: 1.5em;
+    border: 6px solid #004d99;
+    margin-top: -.2em;
+    margin-right: -.35em;
+    margin-left: -.35em;
+    background-image: linear-gradient(#C0C0C0, #FFFFFF);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.btn{
+background-color: #C0C0C0;
+    color: #004d99;
+    border: 1.5px solid black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.who h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 2em
+}
+
+.who p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.who li{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: -1.5em;
+}
+
+.customer h2{
+    font-family: 'Arimo', sans-serif;
+    padding-top: .2em
+}
+
+.customer p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.25em;
+}
+
+.ltbold{
+    font-weight: bold;
+    color: #282828;
+}
+
+.flexcust{
+    flex-basis: 48%;
+    margin: auto;
+    font-size: 1.40em;
+    background-color: #C0C0C0;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+}
+
+.flexcust2{
+     flex-basis: 48%;
+    margin: auto;
+    font-size: 1.40em;
+    background-color: #C0C0C0;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+}
+
+.flexcust2 p{
+    text-align: center;
+    background-color: #C0C0C0
+}
+
+.flexcust2 i{
+    color: #004d99;
+    float: left;
+    font-size: 2em;
+    margin-right: 10px;
+    background-color: #C0C0C0;
+    margin-top: .5em;
+    margin-left: 1em
+}
+
+.flexcust2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #C0C0C0;
+    padding-bottom: .5em;
+}
+
+.flexcust p{
+    text-align: center;
+    background-color: #C0C0C0;
+}
+
+.flexcust i{
+    color: #004d99;
+    float: left;
+    font-size: 2em;
+    margin-right: 10px;
+    background-color: #C0C0C0;
+    margin-top: .5em;
+    margin-left: 1em
+}
+
+.flexcust img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #C0C0C0;
+    padding-bottom: .5em;
+}
+
+footer{
+    background-color: #004d99;
+    color: #C0C0C0;
+    text-align: center;
+    padding: .5em 0em;
+    font-size: .8em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+footer li{
+    display: inline;
+}
+
+footer i{
+    color: #C0C0C0;
+    font-size: 3em;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer a i:hover{
+    color: #282828;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    color: #C0C0C0; 
+    text-decoration: none
+}
+
+footer a:hover{
+    color: #282828;
+}
+
+/* Styles for mobile view */
+@media only screen and (max-width: 767px){
+.flex-container{
+        flex-direction: column;
+    }
+    
+.hippo{
+    text-align: center;
+    padding-left: .4em
+}
+    
+.meerkat{
+    display: none;    
+ }
+    
+header{
+    flex-direction: column;
+}
+
+.flex-container{
+    background-image:url(../images/giraffeleaf.jpg);  
+    height: 90vh;
+    color: #FFFFFF;
+ }
+
+.how img{
+    display: none;
+}
+    
+nav li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding: .5em;
+        font-size: 1.3em;
+        margin-left: -2.4em;
+}
+    
+h1{
+    font-size: 1.57em;   
+}
+    
+h2{
+    font-size: 1.20em    
+}
+    
+#btn{
+    background-color: #C0C0C0;
+    color: #004d99;
+    border: 1.5px solid black;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+    #btn2{
+    background-color: #C0C0C0;
+    color: #004d99;
+    border: 1.5px solid black;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0.9;
+}
+    
+#btn3{
+    background-color: #C0C0C0;
+    color: #004d99;
+    border: 1.5px solid black;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0.9;
+}
+    
+#btn4{
+    background-color: #C0C0C0;
+    color: #004d99;
+    border: 1.5px solid black;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0.9;
+}
+    
+.how a{
+    text-decoration: none;
+}
+    
+#quote{
+    margin-left: -1.5em;
+    margin-bottom: -1em;
+    margin-top: -.5em;
+    }
+    
+#quote2{
+    margin-left: -1.5em;
+    margin-bottom: -1em;
+    margin-top: -.5em;
+}
+    
+.flexcust p{
+    text-align: left;
+    color: #004d99;
+    font-size: 1.3em;
+}
+    
+.flexcust2 p{
+    text-align: left;
+    color: #004d99;
+    font-size: 1.3em;
+}
+    
+    .flexcust img{
+        display: none;
+    }
+    
+    .flexcust2 img{
+        display: none;
+    }
+    
+}

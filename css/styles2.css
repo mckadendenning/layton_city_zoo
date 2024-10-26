@@ -1,0 +1,280 @@
+/*Styles for animals page */
+
+nav li{
+    display: inline;
+    text-align: right;
+    padding: 1em;
+}
+
+h2{
+    
+}
+
+.hippo{
+    padding-top: 3px;
+    margin-left: -10px;
+}
+
+.mobile{
+    display: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004d99;
+    padding-top: -1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-top: -0.7em;
+    margin-left: -0.48em;
+    margin-right: -0.48em;
+}
+
+.meerkat{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: -.7em;
+    margin-right: -.7em
+}
+
+.meerkat img{
+    width: 100%;
+    height: auto;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: 'Arimo', sans-serif;
+}
+
+nav li a:hover{
+    color: #C0C0C0;
+}
+
+
+.desktopanimal{
+    padding: 0em;
+}
+
+.desktopanimal, .flex-container{
+    align-items: flex-start;
+}
+
+.desktopflexanimal{
+    flex-basis: 50%;
+}
+
+.desktopanimal table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 0em;
+    margin-bottom: .3em
+}
+
+.desktopanimal td,th{
+    border: 2px solid #004d99;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: .5em;
+    padding-left: .5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.desktopanimal table th{
+    text-align: center;
+}
+
+.desktopanimal img{
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: -.2em;
+    background-color: #004d99;
+    margin-top: .3em;
+}
+
+.desktopanimal h3{
+   font-family: 'Arimo', sans-serif;
+    font-size: 2.4em;
+    border-right: 4px solid #004d99;
+    border-left: 4px solid #004d99;
+    border-top: 4px solid #004d99;
+    border-bottom: 4px solid #004d99;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: -.2em;
+    margin-right: -.2em;
+    padding-bottom: .3em;
+    padding-top: .3em;
+    text-align: center;
+    color: #004d99;
+}
+
+.desktopanimal h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 3.4em;
+    background-color: #C0C0C0;
+    margin-top: -.08em;
+    margin-bottom: -.07em;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    padding-right: 4em;
+    padding-left: 4em;
+    background-image: linear-gradient(#C0C0C0, #FFFFFF);
+    border-top: 4px solid #004d99;
+    border-right: 24px solid #004d99;
+    border-left: 24px solid #004d99;
+}
+
+.flexcust img{
+    height: 40vh;
+    width: 24em;
+    margin-bottom: 1em;
+}
+
+footer{
+    background-color: #004d99;
+    color: #C0C0C0;
+    text-align: center;
+    padding: .5em 0em;
+    font-size: .8em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+footer li{
+    display: inline;
+}
+
+footer i{
+    color: #C0C0C0;
+    font-size: 3em;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer a i:hover{
+    color: #282828;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    color: #C0C0C0; 
+    text-decoration: none
+}
+
+footer a:hover{
+    color: #282828;
+}
+
+/*Styles for mobile view */
+
+@media only screen and (max-width: 767px){
+    
+.mobile{
+    display: inline;
+}
+    
+.desktopanimal{
+    display: none;    
+}
+    
+.hippo{
+    text-align: center;
+    padding-left: .4em
+}
+    
+.meerkat{
+    display: none;    
+ }
+    
+header{
+    flex-direction: column;
+    margin-right: -1em;
+}
+
+nav li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding: .5em;
+        font-size: 1.3em;
+        margin-left: -2.4em;
+}
+    
+.mobile h1{
+    font-size: 1.6em;
+    background-color: #C0C0C0;
+    padding-left: 0em;
+    padding-right: .1em;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+    
+    
+.animal h3{
+   font-size: 1.2em;
+    color: #C0C0C0;
+    margin-bottom: -.28em;
+    margin-right: -.68em;
+    margin-left: -.43em;
+}
+    
+.animal td,th{
+     font-size: 1em;
+     border: 2px solid #C0C0C0
+}
+    
+.animal table{
+     margin-top: -.24em;
+    margin-bottom: -.26em;
+    margin-right: -.5em;
+    margin-left: -.5em;
+    color: #004d99;
+    padding-bottom: 1em;
+}
+    
+footer i{
+    display: block;
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 0em;
+}
+    
+.animal img{
+        width: 100%;
+        margin-left: .07em;
+        padding-bottom: 1em
+} 
+    
+.animal h3{
+     text-align: center;
+     padding-bottom: 1em;
+     color: #C0C0C0;
+     margin-top: -.4em;
+     text-decoration: underline;
+}
+    
+footer{
+    padding-right: 1em;    
+}
+
+}
